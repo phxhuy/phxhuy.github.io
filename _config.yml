@@ -58,7 +58,7 @@ content:
     content:
       # - layout: top-middle
       - layout: top-middle
-        title: GateNet : An Efficient Deep Neural Network Architecture for Gate Perception Using Fish-Eye Camera in Autonomous Drone Racing
+        title: GateNet - An Efficient Deep Neural Network Architecture for Gate Perception Using Fish-Eye Camera in Autonomous Drone Racing
         link: https://github.com/open-airlab/GateNet
         # link_text: Project Website
         additional_links:
