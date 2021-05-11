@@ -25,15 +25,15 @@ github_username:  phxhuy
 linkedin_username: huyxuanpham
 # xing_username: jekyll
 # pinterest_username: jekyll
-youtube_username: https://www.youtube.com/channel/UCZIkvuSlrpEh4C2oduQIGXg
+# youtube_username: 
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
 additional_links:
-- title: itsgoingto.be
+- title: Google Scholar
   icon: fas fa-globe
-  url: https://www.itsgoingto.be
+  url: https://scholar.google.com/citations?user=lDuf0tAAAAAJ&hl=en
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -50,7 +50,7 @@ about_profile_image: images/HuyPham.png
 about_content: | # this will include new lines to allow paragraphs
   I am a Robotics researcher in Autonomous navigation and motion planning for mobile robots. I have experience in building robots from scratch to a full autonomy system.
 
-  I am most skilled in: <mark>C++</mark>, <mark>python</mark>, <mark>ROS</mark> and <mark>Board Games</mark>
+  I am most skilled in: <mark>C++</mark>, <mark>python</mark>, <mark>ROS</mark>, <mark>tensorflow</mark>, <mark>pytorch</mark> and <mark>Board Games</mark>
 
 content:
   - title: Featured Projects # Title for the section
@@ -69,26 +69,31 @@ content:
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          Can an agile racing drone senses a gate in very close environment with one single RGB camera? Yes it can.
-        description: | # this will include new lines to allow paragraphs
-          We propose a convolutional neural network-based gate detector (GateNet) that concurrently detects gate’s center, distance, and orientation with respect to the drone using only images from a single fish-eye RGB camera. GateNet achieves a high inference rate (up to 60Hz) on an onboard processor (Jetson TX2). Moreover, GateNet is robust to gate pose changes and background disturbances. The proposed perception pipeline leverages a fish-eye lens with a wide field-of-view and thus can detect multiple gates in close range, allowing a longer planning horizon even in tight environments.
+          Can an agile racing drone senses a gate in very close environment with one single RGB camera? Yes! I built an entire hardware system and software pipeline to prove it.
           
-          ![drone racing](images/drone_racing.jpg "Autonomous Drone Racing")
-    - layout: top-middle
-            title: Localization for autonomous car in GPS-denied environment
-            # link: https://github.com/open-airlab/GateNet
-            # link_text: Project Website
-            # additional_links:
-            #   - title:  open-airlab/GateNet
-            #     icon: fab fa-github
-            #     url: https://github.com/open-airlab/GateNet
-              # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-              #   icon: fab fa-github
-              #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-            quote: >
-              How can an autonomous car navigate in a GPS-denied environment? Visual-inertial odometry is the key.
-            description: | # this will include new lines to allow paragraphs
-              In this work we engineered a Visual-inertial odometry system that composes of multiple IMU-camera systems and sensor fusion to enable an autonomous car drives independent of GPS and other external localization system. The system runs an enhanced version of Robust Visual Inertial Odometry ((Rovio)[https://github.com/ethz-asl/rovio]) enable the car to robustly navigate the environment using only local information.
+        description: | # this will include new lines to allow paragraphs
+          <img style="float: left;" src="images/drone_racing.resized.png"> 
+          
+          I propose a convolutional neural network-based gate detector for drone racing (GateNet) that concurrently detects gate’s center, distance, and orientation with respect to the drone using only images from a single fish-eye RGB camera. GateNet achieves a high inference rate (up to 60Hz) on an onboard processor (Jetson TX2). Moreover, GateNet is robust to gate pose changes and background disturbances. The proposed perception pipeline leverages a fish-eye lens with a wide field-of-view and thus can detect multiple gates in close range, allowing a longer planning horizon even in tight environments.
+
+      - layout: top-middle
+        title: Localization for autonomous car in GPS-denied environments
+        # link: https://github.com/open-airlab/GateNet
+        # link_text: Project Website
+        # additional_links:
+        #   - title:  open-airlab/GateNet
+        #     icon: fab fa-github
+        #     url: https://github.com/open-airlab/GateNet
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          How can an autonomous car navigate in a GPS-denied environment? Visual-inertial odometry is the key.
+        description: | # this will include new lines to allow paragraphs
+          <img style="float: left;" src="images/autonomos_car.resized.png"> 
+
+          In this work I engineer a visual-inertial odometry framework that composes of multiple IMU-camera systems and sensor fusion to enable an autonomous car drive independent of GPS and other external localization sources. The system runs an enhanced version of the Robust Visual Inertial Odometry ([Rovio](https://github.com/ethz-asl/rovio)) to robustly navigate the environment using only local information.
+          
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -101,11 +106,11 @@ content:
         quote: >
           Solving autonomous navigation for agile robotic systems
         description: | # this will include new lines to allow paragraphs
-            My goal is to re-innovate autonomous path planning and navigation with the help of Machine Learning, Deep Learning, and advanced Computer Vision technologies in perception and state estimation. My research involves developing novel software and algorithms, occasionally engineering new platforms, for light-weight quadrotors, equipped with visual sensors and small onboard computers while flying at high-speed in challenging scenarios. Potential applications could be in Autonomous Drone Racing, Search and Rescues, and reconnaissance missions in dynamic or unstructured environments.
+            My goal is to re-innovate autonomous navigation and motion planning for robot systems with the help of Deep Learning. My research involves in developing novel software and algorithms, occasionally also engineering new robot platforms, for agile quadrotors, equipped with visual sensors and small onboard computers flying at high-speed in challenging scenarios. Potential applications could be in Autonomous Drone Racing, Search and Rescues, and reconnaissance missions in dynamic or unstructured environments.
       
       - layout: left
         title:  Autonomous Robots Lab (ARL), University of Nevada, Reno, USA
-        link:  https://www.autonomousrobotslab.com/modeling.html       # link_text: boringcompany.com
+        link:  https://www.autonomousrobotslab.com/      # link_text: boringcompany.com
         sub_title: Research Engineer
         caption: December 2018 - September 2019
         quote: >
@@ -122,26 +127,39 @@ content:
         sub_title: PhD in Robotics
         # quote: >
         #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        # description: | # this will include new lines to allow paragraphs
-        #   During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+        description: | # this will include new lines to allow paragraphs
+          Doing my PhD at Aarhus University, Denmark is one of the best experience I have ever had. Here I have the opportunities to work with talented researchers in a world-class facilities and an supportive environment. During this time I have developed my skills and attitude to be an independent researcher and thinker, capable of leading my research projects and, in the future, my own lab.
 
-        #   I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
-      
       - layout: left
         title: University of Nevada, Reno, USA
         caption: 2017 - 2019
         sub_title: Master's degree in Computer Science
+        
+        description: | # this will include new lines to allow paragraphs
+          This is the place where I have learned Robotics! As a research assistant and later a lab engineer, I have worked in a few projects in different labs. I have worked with state-of-the-art path planning and state estimation frameworks for both aerial robots and ground robots, from individual missions to collaborative team missions. I have used both model-based and model-free methods for my work, and the knowledge and skills I have acquired durning this time is essential for my career.
 
       - layout: left
         title: University of Oklahoma, Norman, USA
         caption: 2013 - 2015
         sub_title: Master's degree in Industrial and System Engineering
 
+        description: | # this will include new lines to allow paragraphs
+          I came to the university under a prestigious US government scholarship, the Vietnam Education Foundation (VEF), to study Industrial and System Engineering. I managed to do well in this new horizon and acquired valuable experiences, particularly in solving convex and non-convex optimization problems, that I still draw from today. 
+
+
+      - layout: left
+        title: Hanoi University of Science and Technology, Hanoi, Vietnam
+        caption: 2006 - 2011
+        sub_title: Bachelor of Engineering in Automation and Control Engineering
+
+        description: | # this will include new lines to allow paragraphs
+          I am graduated from one of the top technical universities in Vietnam. Here I have learned the basics in maths, physics, programming, and even some research skills. 
 
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
       Alongside my interests in Robotics and software engineering some of my other interests and hobbies are:
+      - Building and racing drones!
       - Biking
       - Hiking
       - Football
