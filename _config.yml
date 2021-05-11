@@ -25,7 +25,7 @@ github_username:  phxhuy
 linkedin_username: huyxuanpham
 # xing_username: jekyll
 # pinterest_username: jekyll
-youtube_username: flair.robotics
+youtube_username: https://www.youtube.com/channel/UCZIkvuSlrpEh4C2oduQIGXg
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
 
@@ -53,64 +53,99 @@ about_content: | # this will include new lines to allow paragraphs
   I am most skilled in: <mark>C++</mark>, <mark>python</mark>, <mark>ROS</mark> and <mark>Board Games</mark>
 
 content:
-  - title: Projects # Title for the section
+  - title: Featured Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
+      # - layout: top-middle
       - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
+        title: GateNet : An Efficient Deep Neural Network Architecture for Gate Perception Using Fish-Eye Camera in Autonomous Drone Racing
+        link: https://github.com/open-airlab/GateNet
         # link_text: Project Website
         additional_links:
-          - title:  sproogen/modern-resume-theme
+          - title:  open-airlab/GateNet
             icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
+            url: https://github.com/open-airlab/GateNet
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+          Can an agile racing drone senses a gate in very close environment with one single RGB camera? Yes it can.
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
-
+          We propose a convolutional neural network-based gate detector (GateNet) that concurrently detects gate’s center, distance, and orientation with respect to the drone using only images from a single fish-eye RGB camera. GateNet achieves a high inference rate (up to 60Hz) on an onboard processor (Jetson TX2). Moreover, GateNet is robust to gate pose changes and background disturbances. The proposed perception pipeline leverages a fish-eye lens with a wide field-of-view and thus can detect multiple gates in close range, allowing a longer planning horizon even in tight environments.
+          
+          ![drone racing](images/drone_racing.jpg "Autonomous Drone Racing")
+    - layout: top-middle
+            title: Localization for autonomous car in GPS-denied environment
+            # link: https://github.com/open-airlab/GateNet
+            # link_text: Project Website
+            # additional_links:
+            #   - title:  open-airlab/GateNet
+            #     icon: fab fa-github
+            #     url: https://github.com/open-airlab/GateNet
+              # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+              #   icon: fab fa-github
+              #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+            quote: >
+              How can an autonomous car navigate in a GPS-denied environment? Visual-inertial odometry is the key.
+            description: | # this will include new lines to allow paragraphs
+              In this work we engineered a Visual-inertial odometry system that composes of multiple IMU-camera systems and sensor fusion to enable an autonomous car drives independent of GPS and other external localization system. The system runs an enhanced version of Robust Visual Inertial Odometry ((Rovio)[https://github.com/ethz-asl/rovio]) enable the car to robustly navigate the environment using only local information.
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: The Boring Company
-        link: boringcompany.com
+        title: AiR Lab, Aarhus University, Denmark
+        link: https://ece.au.dk/en/research/key-areas-in-research-and-development/communication-control-and-automation/artificial-intelligence-in-robotics/
         # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
+        sub_title: PhD student
+        caption: September 2019 - Present
         quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+          Solving autonomous navigation for agile robotic systems
         description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+            My goal is to re-innovate autonomous path planning and navigation with the help of Machine Learning, Deep Learning, and advanced Computer Vision technologies in perception and state estimation. My research involves developing novel software and algorithms, occasionally engineering new platforms, for light-weight quadrotors, equipped with visual sensors and small onboard computers while flying at high-speed in challenging scenarios. Potential applications could be in Autonomous Drone Racing, Search and Rescues, and reconnaissance missions in dynamic or unstructured environments.
+      
+      - layout: left
+        title:  Autonomous Robots Lab (ARL), University of Nevada, Reno, USA
+        link:  https://www.autonomousrobotslab.com/modeling.html       # link_text: boringcompany.com
+        sub_title: Research Engineer
+        caption: December 2018 - September 2019
+        quote: >
+          Design localization system and path planning for ground an aerial robotic systems.
+        description: | # this will include new lines to allow paragraphs
+            Solving engineering and research problems for my team in multiple projects. I have the honor to participate the <mark>DARPA SubT challenge</mark> with my team during this time.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+        title: Aarhus University, Denmark
+        caption: 2019 - 2022
+        sub_title: PhD in Robotics
+        # quote: >
+        #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        # description: | # this will include new lines to allow paragraphs
+        #   During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+        #   I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+      
+      - layout: left
+        title: University of Nevada, Reno, USA
+        caption: 2017 - 2019
+        sub_title: Master's degree in Computer Science
+
+      - layout: left
+        title: University of Oklahoma, Norman, USA
+        caption: 2013 - 2015
+        sub_title: Master's degree in Industrial and System Engineering
+
 
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+      Alongside my interests in Robotics and software engineering some of my other interests and hobbies are:
+      - Biking
+      - Hiking
+      - Football
+      - Board games
 
 # Footer
 footer_show_references: true
