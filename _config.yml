@@ -48,7 +48,9 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/HuyPham.png
 about_content: | # this will include new lines to allow paragraphs
-  I am a Robotics researcher in Autonomous navigation and motion planning for mobile robots. I have experience in building robots from scratch to a full autonomy system.
+  I am a Robotics researcher in Autonomous navigation and motion planning for mobile robots. I have experience in building robots from scratch to a full-autonomy system.
+
+  My research topics are Autonomous Motion Planning and Navigation, Deep Learning for Robotics, Computer Vision, and Multi-Robot Systems.
 
   I am most skilled in: <mark>C++</mark>, <mark>python</mark>, <mark>ROS</mark>, <mark>tensorflow</mark>, <mark>pytorch</mark> and <mark>Board Games</mark>
 
@@ -75,6 +77,8 @@ content:
           <img style="float: left;" src="images/drone_racing.resized.png"> 
           
           I propose a convolutional neural network-based gate detector for drone racing (GateNet) that concurrently detects gate’s center, distance, and orientation with respect to the drone using only images from a single fish-eye RGB camera. GateNet achieves a high inference rate (up to 60Hz) on an onboard processor (Jetson TX2). Moreover, GateNet is robust to gate pose changes and background disturbances. The proposed perception pipeline leverages a fish-eye lens with a wide field-of-view and thus can detect multiple gates in close range, allowing a longer planning horizon even in tight environments.
+          I use a geometric controller to control the drone and an optimization-based minimum-snap trajectory generation method for local motion planning.
+          [Link video](https://youtu.be/gzOIwb_gJyw)
 
       - layout: top-middle
         title: Localization for autonomous car in GPS-denied environments
@@ -92,8 +96,10 @@ content:
         description: | # this will include new lines to allow paragraphs
           <img style="float: left;" src="images/autonomos_car.resized.png"> 
 
-          In this work I engineer a visual-inertial odometry framework that composes of multiple IMU-camera systems and sensor fusion to enable an autonomous car drive independent of GPS and other external localization sources. The system runs an enhanced version of the Robust Visual Inertial Odometry ([Rovio](https://github.com/ethz-asl/rovio)) to robustly navigate the environment using only local information.
+          In this work, I engineer a visual-inertial odometry framework that composes of multiple IMU-camera systems and sensor fusion to enable an autonomous car drive independent of GPS and other external localization sources. The system runs an enhanced version of the Robust Visual Inertial Odometry ([Rovio](https://github.com/ethz-asl/rovio)) to robustly navigate the environment using only local information capturing from the cameras and ego-motion estimation from IMUs.
           
+          [Link video](https://youtu.be/PzgActp3Gok)
+
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -106,7 +112,7 @@ content:
         quote: >
           Solving autonomous navigation for agile robotic systems
         description: | # this will include new lines to allow paragraphs
-            My goal is to re-innovate autonomous navigation and motion planning for robot systems with the help of Deep Learning. My research involves in developing novel software and algorithms, occasionally also engineering new robot platforms, for agile quadrotors, equipped with visual sensors and small onboard computers flying at high-speed in challenging scenarios. Potential applications could be in Autonomous Drone Racing, Search and Rescues, and reconnaissance missions in dynamic or unstructured environments.
+            My goal is to re-innovate autonomous navigation and motion planning for robot systems with the help of Deep Learning. My research involves developing novel software and algorithms, occasionally also engineering new robot platforms, for agile quadrotors, equipped with visual sensors and small onboard computers flying at high speed in challenging scenarios. Potential applications could be Autonomous Drone Racing, Search and Rescues, and reconnaissance missions in dynamic or unstructured environments.
       
       - layout: left
         title:  Autonomous Robots Lab (ARL), University of Nevada, Reno, USA
@@ -116,7 +122,7 @@ content:
         quote: >
           Design localization system and path planning for ground an aerial robotic systems.
         description: | # this will include new lines to allow paragraphs
-            Solving engineering and research problems for my team in multiple projects. I have the honor to participate the <mark>DARPA SubT challenge</mark> with my team during this time.
+            Solving engineering and research problems for my team in multiple projects. I have the honor to participate in the <mark>DARPA SubT challenge</mark> with my team during this time.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -128,7 +134,7 @@ content:
         # quote: >
         #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
         description: | # this will include new lines to allow paragraphs
-          Doing my PhD at Aarhus University, Denmark is one of the best experience I have ever had. Here I have the opportunities to work with talented researchers in a world-class facilities and an supportive environment. During this time I have developed my skills and attitude to be an independent researcher and thinker, capable of leading my research projects and, in the future, my own lab.
+          Doing my Ph.D. at Aarhus University, Denmark is one of the best experiences I have ever had. Here I have the opportunities to work with talented researchers in a world-class facility and a supportive environment. During this time I have developed my skills and attitude to be an independent researcher and thinker, capable of leading my research projects and, in the future, my own lab.
 
       - layout: left
         title: University of Nevada, Reno, USA
@@ -136,7 +142,7 @@ content:
         sub_title: Master's degree in Computer Science
         
         description: | # this will include new lines to allow paragraphs
-          This is the place where I have learned Robotics! As a research assistant and later a lab engineer, I have worked in a few projects in different labs. I have worked with state-of-the-art path planning and state estimation frameworks for both aerial robots and ground robots, from individual missions to collaborative team missions. I have used both model-based and model-free methods for my work, and the knowledge and skills I have acquired durning this time is essential for my career.
+          This is the place where I have learned Robotics! As a research assistant and later a lab engineer, I have worked on a few projects in different labs. I have worked with state-of-the-art path planning and state estimation frameworks for both aerial robots and ground robots, from individual missions to collaborative team missions. I have used both model-based and model-free methods for my work, and the knowledge and skills I have acquired during this time are essential for my career.
 
       - layout: left
         title: University of Oklahoma, Norman, USA
@@ -144,7 +150,7 @@ content:
         sub_title: Master's degree in Industrial and System Engineering
 
         description: | # this will include new lines to allow paragraphs
-          I came to the university under a prestigious US government scholarship, the Vietnam Education Foundation (VEF), to study Industrial and System Engineering. I managed to do well in this new horizon and acquired valuable experiences, particularly in solving convex and non-convex optimization problems, that I still draw from today. 
+          I came to the university under a prestigious US government scholarship, the Vietnam Education Foundation (VEF), to study Industrial and System Engineering. I managed to do well in this new horizon and acquired valuable experiences, particularly in solving convex and non-convex optimization problems, that I still rely upon today. 
 
 
       - layout: left
@@ -153,7 +159,7 @@ content:
         sub_title: Bachelor of Engineering in Automation and Control Engineering
 
         description: | # this will include new lines to allow paragraphs
-          I am graduated from one of the top technical universities in Vietnam. Here I have learned the basics in maths, physics, programming, and even some research skills. 
+          I am graduated from one of the top technical universities in Vietnam. Here I have learned the basics of maths, physics, programming, and even some research skills. 
 
   - title: A Little More About Me
     layout: text
