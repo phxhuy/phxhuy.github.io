@@ -63,7 +63,11 @@ content:
       title: Event-based Navigation for Autonomous Drone Racing with Sparse Gated Recurrent Network 
       link: (TBD)
       # link_text: Project Website
-
+      additional_links:
+        - title:  open-airlab/GateNet
+          icon: fab fa-github
+          url: https://github.com/open-airlab/GateNet
+          
       quote: >
         Can robots learn more efficient? The answer may come from novel neuromorphic cameras.
         
