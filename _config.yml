@@ -61,7 +61,6 @@ content:
       # - layout: top-middle
       - layout: top-middle
         title: Event-based Navigation for Autonomous Drone Racing with Sparse Gated Recurrent Network 
-        link: (TBD)
         # link_text: Project Website
         additional_links:
           - title:  open-airlab/GateNet
@@ -72,7 +71,7 @@ content:
           Can robots learn more efficient? The answer may come from novel neuromorphic cameras.
           
         description: | # this will include new lines to allow paragraphs
-          <img style="float: left;" src="images/event_gate.png"> 
+          <img style="float: left;" src="images/event_process.png"> 
           
           Together with my MS student Kristoffer Andersen, I propose an autonomous drone system that leverages an event-based camera and a novel deep learning architecture based on gated recurrent units and sparse convolutions to effectively perceive racing gates in difficult visual conditions at very high speeds and low illumination.
           We also prove that the sim-to-real transfer learning scheme significantly improves the accuracy of the robot's perception module.
@@ -93,7 +92,7 @@ content:
           Can an agile racing drone senses a gate in very close environment with one single RGB camera? Yes! I built an entire hardware system and software pipeline to prove it.
           
         description: | # this will include new lines to allow paragraphs
-          <img style="float: left;" src="images/drone_racing.resized.png"> 
+          <img style="float: left;" src="images/drone_racing.png"> 
           
           I propose a convolutional neural network-based gate detector for drone racing (GateNet) that concurrently detects gate’s center, distance, and orientation with respect to the drone using only images from a single fish-eye RGB camera. GateNet achieves a high inference rate (up to 60Hz) on an onboard processor (Jetson TX2). Moreover, GateNet is robust to gate pose changes and background disturbances. The proposed perception pipeline leverages a fish-eye lens with a wide field-of-view and thus can detect multiple gates in close range, allowing a longer planning horizon even in tight environments.
           I implement a geometric controller to control the drone and an optimization-based minimum-snap trajectory generation method for local motion planning.
@@ -113,7 +112,7 @@ content:
         quote: >
           How can an autonomous car navigate in a GPS-denied environment? Visual-inertial odometry is the key.
         description: | # this will include new lines to allow paragraphs
-          <img style="float: left;" src="images/autonomos_car.resized.png"> 
+          <img style="float: left;" src="images/autonomos_car.png"> 
 
           In this work, I engineer a visual-inertial odometry framework that composes of multiple IMU-camera systems and sensor fusion to enable an autonomous car drive independent of GPS and other external localization sources. The system runs an enhanced version of the Robust Visual Inertial Odometry ([Rovio](https://github.com/ethz-asl/rovio)) to robustly navigate the environment using only local information capturing from the cameras and ego-motion estimation from IMUs.
           
